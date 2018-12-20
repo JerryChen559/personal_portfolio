@@ -6,7 +6,7 @@
   "homepage": "https://jerrychen559.github.io/personal_portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d index.html"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JerryChen559/personal_portfolio/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
